@@ -23,9 +23,11 @@ module.exports = {
       colors: {
         primary: '#3B3172',
         secondary: '#3B3172',
-        teal:'#25e2c9',
-        hover:'#bae6de'
+        hover:'#bae6de',
+        nav:'rgba(0,0,50,0.25)'
       },
+     
+      
     },
   },
   variants: {
