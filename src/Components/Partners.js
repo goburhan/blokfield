@@ -36,7 +36,7 @@ export default function Partners() {
           {
             breakpoint: 800,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 2,
               infinite: true,
               dots: true,
@@ -46,8 +46,8 @@ export default function Partners() {
             breakpoint: 600,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 2,
-              initialSlide: 2,
+              slidesToScroll: 1,
+              initialSlide: 1,
             },
           },
           {
@@ -67,23 +67,23 @@ export default function Partners() {
                 Partners
                 
                 </div>
-                <div className='  mt-20 p-24 '>
+                <div className=' mt-20 sm:p-0 lg:p-24 '>
                 <Slider {...sliderSettings} >
                     
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner1.png" className="ml-auto "  width='150' alt="welcome" />
+                <img  src="/images/partner1.png" className="partnerbg sm:ml-0 lg:ml-28 "   alt="welcome" />
                 </a>
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner2.png" className="ml-44 rounded-3xl  "  width='200' alt="welcome" />
+                <img  src="/images/partner2.png" className=" partnerbg sm:ml-0 lg:ml-28 "   alt="welcome" />
                 </a>
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner3.png" className="mr-50 rounded-3xl "  width='150' alt="welcome" />
+                <img  src="/images/partner3.png" className="  partnerbg sm:ml-0 lg:ml-28 "   alt="welcome" />
                 </a>
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner4.png" className=" rounded-3xl "  width='150' alt="welcome" />
+                <img  src="/images/partner4.png" className="  partnerbg sm:ml-0  lg:ml-28 " style={{maxWidth:310}}  alt="welcome" />
                 </a>
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner2.png" className=" rounded-3xl "  width='300' alt="welcome" />
+                <img  src="/images/partner2.png" className="  partnerbg sm:ml-0 lg:ml-28 "  style={{maxWidth:310}} alt="welcome" />
                 </a>
 
                 </Slider>

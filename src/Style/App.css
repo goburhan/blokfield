@@ -1,9 +1,12 @@
+
+
 .App {
   text-align: center;
   background-image: url("/public/images/background2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -4px;
+  background-position: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -32,18 +35,31 @@
 .contact {
   border: 25px solid transparent;
   border-image: url("/public/images/wdblock.svg") 30 stretch;
-  min-width: 540px;
+  min-width: 450px;
   max-width: 850px;
   padding: 10px;
 }
 
 
-
 .projectsct{
   background-image: url("/public/images/projectbg.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  
+  background-size:  contain;
+  padding: 34px;
+  width:250px;
+  height:250px;
+}
+
+
+.partnerbg{
+  background-image: url("/public/images/partners.png");
+  background-repeat: no-repeat;
+  background-size:  contain;
+  padding: 40px;
+  padding-bottom: 12%;
+  width:310px;
+  height:180px;
+ 
 }
 
 .btn{

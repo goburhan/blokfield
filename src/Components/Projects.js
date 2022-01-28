@@ -8,13 +8,13 @@ export default function Projects() {
                 Several components of metaverse technologies have already been developed modern internet-enabled video games.
                 </div>
                 </div>
-                <div className="grid grid-cols-3 items-center place-items-center p-24">
-                <img className="ml-96" src="/images/project1.png" alt="welcome" />
-                <img className="" src="/images/project2.png" alt="welcome" />
-                <img className="mr-96" src="/images/project3.png" alt="welcome" />
-                <img className="ml-96" src="/images/project4.png" alt="welcome" />
-                <img className="" src="/images/project5.png" alt="welcome" />
-                <img className="mr-96" src="/images/project6.png" width={200} alt="welcome"  />
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3    place-items-center p-12 gap-4">
+                <img className="lg:ml-96  projectsct " src="/images/project1.png" style={{maxWidth:250}} alt="welcome" />
+                <img className="projectsct " src="/images/project2.png" style={{maxWidth:250}} alt="welcome" />
+                <img className="lg:mr-96 projectsct " src="/images/project3.png"  style={{maxWidth:250}}  alt="welcome" />
+                <img className="lg:ml-96 projectsct" src="/images/project4.png" style={{maxWidth:250}} alt="welcome" />
+                <img className=" projectsct" src="/images/project5.png" style={{maxWidth:250}} alt="welcome" />
+                <img className="lg:mr-96 projectsct" src="/images/project6.png" style={{maxWidth:250}} alt="welcome"  />
                 </div>
 
             </div>

@@ -2,8 +2,8 @@
 export default function Welcome() {
     return (
         <div>
-            <div className="grid grid-cols-2 mt-20">
-                <div className="grid grid-cols-1 text-white text-6xl mb-8 text-left place-content-center  gap-4">
+            <div className="grid sm:grid-cols-1 lg:grid-cols-2 mt-20">
+                <div className="grid grid-cols-1 text-white lg:text-6xl sm:text-3xl mb-8 text-left place-content-center  gap-4">
                 Welcome to our company. Are you ready for new world? 
                     <div className="text-white text-xl mb-8 text-left " >
                         
@@ -11,7 +11,7 @@ export default function Welcome() {
                 </div>
                 </div>
                 
-                <img src="/images/welcome.png" alt="welcome" />
+                <img src="/images/welcome.png" alt="welcome" className=" sm:hidden md:block"/>
             </div>
             <button
                   type="button"

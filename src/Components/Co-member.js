@@ -6,24 +6,35 @@ export default function Members() {
                 Co-Members
                
                 </div>
-                <div className="grid grid-cols-4 place-items-center p-48 ">
-                <img className="" src="/images/member1.png" alt="welcome" />
-                <img className="" src="/images/member2.png" alt="welcome" />
-                <img className="" src="/images/member3.png" alt="welcome" />
-                <img className="" src="/images/member4.png" alt="welcome" />
-                
+                <div className="grid sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-12 sm:p-0 lg:p-48 ">
+               <div>
+                <img className="sm:mt-12 lg:mt-0" src="/images/member1.png" style={{minWidth:200}} alt="welcome" />
                 <div className="text-white mt-6">
                     Bomi Yoon <br/> CEO
                 </div>
+                </div>
+                <div>
+                <img className="sm:mt-12 lg:mt-0" src="/images/member2.png" style={{minWidth:200}} alt="welcome" />
                 <div className="text-white mt-6">
                     Nia Yoon <br/> Co-Founder
                 </div>
+                </div>
+                <div>
+                <img className="" src="/images/member3.png" style={{minWidth:200}} alt="welcome" />
                 <div className="text-white mt-6">
                     Pars <br/> Software Developer
                 </div>
+                </div>
+                <div>
+                <img className="" src="/images/member4.png" style={{minWidth:200}} alt="welcome" />
                 <div className="text-white mt-6">
                     Hyper <br/> Backend Developer
                 </div>
+                </div>
+               
+                
+                
+                
                 
                 </div>
 
