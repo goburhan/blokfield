@@ -35,7 +35,7 @@ export default function Contact() {
                     <div className="col-span-1  ">
                         <img src="images/location.png" style={{maxWidth:40}}/>
                     </div>
-                    <div className="sm:col-span-1 lg:col-span-2  lg:col-start-2 mt-2 sm:-ml-32 lg:-ml-12">
+                    <div className="sm:col-span-1 lg:col-span-2  lg:col-start-2 mt-2 sm:-ml-32 lg:-ml-20">
                     Margen Sk. No.1 Da.10 Beyoglu/Istanbul
                     </div>
                 </div>

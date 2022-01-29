@@ -18,7 +18,7 @@ export default function Example() {
     <Disclosure as="nav" className="nav h-24 blur lg">
       {({ open }) => (
         <>
-          <div className="  mx-auto px-2 sm:px-0 lg:px-8 md:-py-10 ">
+          <div className="  mx-auto  sm:px-0 lg:px-8 md:-py-10 ">
             <div className="relative flex justify-between  h-24">
               <div className="flex-1 flex items-center justify-center  sm:items-stretch sm:justify-start  ">
                 <div className="flex-shrink-0  flex items-center">
@@ -28,8 +28,8 @@ export default function Example() {
                     alt="Workflow"
                   />
                 </div>
-                <div className=" sm:ml-6 ">
-                  <div className="flex sm:space-x-4 md:space-x-12 lg:space-x-24 absolute mt-4 lg:ml-56 ">
+                <div className=" sm:ml-0 ">
+                  <div className="flex sm:space-x-0 md:space-x-12 lg:space-x-24 absolute mt-4 lg:ml-56 ">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -38,7 +38,7 @@ export default function Example() {
                           item.current
                             ? " text-white"
                             : "text-gray-300 hover:bg-gray-800 hover:text-white",
-                          "px-6 py-4 rounded-md text-sm font-medium"
+                          "sm:px-1 lg:px-6 py-4 rounded-md text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
