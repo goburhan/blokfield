@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App ">
       <Navbar />
-      <div className="grid grid-cols-1 ml-24 mr-24 gap-20 sm:p-0 lg:p-24">
+      <div className="grid grid-cols-1 sm:ml-4 sm:mr-4 ml-24 mr-24 gap-20 sm:p-0 lg:p-24">
         <div>
           <Welcome />
         </div>
