@@ -6,7 +6,7 @@ export default function SocialMedia() {
                 Social Media
                 
                 </div>
-                <div className="grid sm:gap-0 sm:mr-6 sm:grid-cols-5 lg:grid-cols-11  items-center place-items-center mt-12 mb-24 ">
+                <div className="grid sm:gap-2 sm:mr-6 sm:grid-cols-5 lg:grid-cols-11  items-center place-items-center mt-12 mb-24 ">
                 <div className="lg:block sm:hidden"></div>
                 <div className="lg:block sm:hidden"></div>
                 <div className="lg:block sm:hidden"></div>
@@ -18,7 +18,6 @@ export default function SocialMedia() {
                 <img className="" src="/images/linkedin.png" alt="welcome" style={{maxWidth:70}}/>
                
                 </div>
-
             </div>
     ); 
 }

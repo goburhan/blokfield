@@ -1,6 +1,7 @@
 export default function WWdo() {
   return (
     <div className="grid grid-cols-1 mt-20  ">
+      <section id="whatwedo">
       <div className="text-5xl text-white mb-20"> What We Do ? </div>
       <div className="grid grid-cols-1 text-white">
         <div className=" gap-4">
@@ -62,6 +63,7 @@ export default function WWdo() {
 
         </div>
       </div>
+      </section>
     </div>
   );
 }

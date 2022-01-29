@@ -1,7 +1,8 @@
 export default function About() {
   return (
     <div className="grid grid-cols-1 mt-20  ">
-      <div className="text-5xl text-white mb-32 ">About Us</div>
+      <section id="about">
+      <div className="text-5xl text-white mb-32 mt-12">About Us</div>
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-10 text-2xl text-white text-left place-items-center ">
         <div>
           <img
@@ -27,6 +28,7 @@ export default function About() {
           
         </div>
       </div>
+      </section>
     </div>
   );
 }

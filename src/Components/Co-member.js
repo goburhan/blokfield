@@ -2,7 +2,8 @@
 export default function Members() {
     return (
             <div className="grid grid-cols-1 mt-20">
-                <div className="text-5xl text-white ">
+                <section id="members">
+                <div className="text-5xl text-white mt-12">
                 Co-Members
                
                 </div>
@@ -37,7 +38,7 @@ export default function Members() {
                 
                 
                 </div>
-
+                </section>
             </div>
     ); 
 }

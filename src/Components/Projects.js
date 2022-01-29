@@ -2,7 +2,8 @@
 export default function Projects() {
     return (
             <div className="grid grid-cols-1 mt-20">
-                <div className="text-5xl text-white ">
+                <section id="projects" >
+                <div className="text-5xl text-white mt-12 ">
                 Projects
                 <div className="text-xl mt-4">
                 Several components of metaverse technologies have already been developed modern internet-enabled video games.
@@ -16,7 +17,7 @@ export default function Projects() {
                 <img className=" projectsct" src="/images/project5.png" style={{maxWidth:250}} alt="welcome" />
                 <img className="lg:mr-96 projectsct" src="/images/project6.png" style={{maxWidth:250}} alt="welcome"  />
                 </div>
-
+                </section>
             </div>
     ); 
 }

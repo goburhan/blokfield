@@ -2,11 +2,11 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 
 const navigation = [
-  { name: "Projects", href: "#", current: true },
-  { name: "Partners", href: "#", current: false },
-  { name: "Co-member", href: "#", current: false },
-  { name: "About Us", href: "#", current: false },
-  { name: "What We Do", href: "#", current: false },
+  { name: "Projects", href: "#projects", current: true },
+  { name: "Partners", href: "#partners", current: false },
+  { name: "Co-member", href: "#members", current: false },
+  { name: "About Us", href: "#about", current: false },
+  { name: "What We Do", href: "#whatwedo", current: false },
 ];
 
 function classNames(...classes) {

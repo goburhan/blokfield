@@ -62,8 +62,9 @@ export default function Partners() {
     return (
 
        
-            <div className="grid grid-cols-1 mt-20 ">
-                <div className="text-5xl  text-white ">
+            <div className="grid grid-cols-1 mt-12">
+              <section id='partners'>
+                <div className="text-5xl mt-24 text-white ">
                 Partners
                 
                 </div>
@@ -88,7 +89,7 @@ export default function Partners() {
 
                 </Slider>
                 </div>
-
+                </section>
             </div>
     ); 
 }

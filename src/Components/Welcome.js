@@ -16,9 +16,11 @@ export default function Welcome() {
                 
                 <img src="/images/welcome.png" alt="welcome" className=" sm:hidden md:block"/>
             </div>
+          
             <button
                   type="button"
                   className=" btn  text-white px-4 "
+                  
                 >
                   <div>Read About Us</div>
                 </button>
