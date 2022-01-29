@@ -18,17 +18,19 @@ function App() {
         <div>
           <Welcome />
         </div>
-        <div>
+        <div className="">
           <Projects />
         </div>
+        <div className="mt-24">
         <Partners />
-        <div>
+        </div>
+        <div className="mt-32">
           <Members/>
         </div>
         <div>
           <About/>
         </div>
-        <div>
+        <div className="mt-24">
           <WWdo/>
         </div>
         <div>

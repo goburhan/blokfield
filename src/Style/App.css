@@ -40,6 +40,9 @@
   padding: 10px;
 }
 
+.try{
+  margin-left: calc((100% - 48px)/4);
+}
 
 .projectsct{
   background-image: url("/public/images/projectbg.png");
