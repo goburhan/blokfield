@@ -35,7 +35,7 @@
 .contact {
   border: 25px solid transparent;
   border-image: url("/public/images/wdblock.svg") 30 stretch;
-  min-width: 450px;
+  min-width: 570px;
   max-width: 850px;
   padding: 10px;
 }

@@ -6,6 +6,7 @@ const navigation = [
   { name: "Partners", href: "#", current: false },
   { name: "Co-member", href: "#", current: false },
   { name: "About Us", href: "#", current: false },
+  { name: "What We Do", href: "#", current: false },
 ];
 
 function classNames(...classes) {
@@ -28,7 +29,7 @@ export default function Example() {
                   />
                 </div>
                 <div className=" sm:ml-6 ">
-                  <div className="flex sm:space-x-4 md:space-x-12 lg:space-x-24 absolute mt-4 lg:ml-96 ">
+                  <div className="flex sm:space-x-4 md:space-x-12 lg:space-x-24 absolute mt-4 lg:ml-56 ">
                     {navigation.map((item) => (
                       <a
                         key={item.name}

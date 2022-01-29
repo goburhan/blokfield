@@ -6,7 +6,7 @@ export default function SocialMedia() {
                 Social Media
                 
                 </div>
-                <div className="grid gap-20 sm:grid-cols-5 lg:grid-cols-11 items-center place-items-center p-12">
+                <div className="grid gap-20 sm:grid-cols-5 lg:grid-cols-11  items-center place-items-center p-12">
                 <div className="lg:block sm:hidden"></div>
                 <div className="lg:block sm:hidden"></div>
                 <div className="lg:block sm:hidden"></div>

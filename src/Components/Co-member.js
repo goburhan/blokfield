@@ -6,7 +6,7 @@ export default function Members() {
                 Co-Members
                
                 </div>
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-12 sm:p-0 lg:p-48 ">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-4 place-items-center sm:gap-36 lg:gap-12 sm:p-0 lg:p-48 ">
                <div>
                 <img className="sm:mt-12 lg:mt-0" src="/images/member1.png" style={{minWidth:200}} alt="welcome" />
                 <div className="text-white mt-6">
@@ -28,7 +28,7 @@ export default function Members() {
                 <div>
                 <img className="" src="/images/member4.png" style={{minWidth:200}} alt="welcome" />
                 <div className="text-white mt-6">
-                    Hyper <br/> Backend Developer
+                    Hyper <br/> Business Manager
                 </div>
                 </div>
                
