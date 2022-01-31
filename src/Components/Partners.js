@@ -83,9 +83,7 @@ export default function Partners() {
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
                 <img  src="/images/partner4.png" className="  partnerbg sm:ml-0  lg:ml-28 " style={{maxWidth:310}}  alt="welcome" />
                 </a>
-                <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner2.png" className="  partnerbg sm:ml-0 lg:ml-28 "  style={{maxWidth:310}} alt="welcome" />
-                </a>
+                
 
                 </Slider>
                 </div>
