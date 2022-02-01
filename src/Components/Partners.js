@@ -64,11 +64,11 @@ export default function Partners() {
        
             <div className="grid grid-cols-1 mt-12">
               <section id='partners'>
-                <div className="text-5xl mt-24 text-white ">
+                <div className="text-5xl mt-28 text-white ">
                 Partners
                 
                 </div>
-                <div className=' mt-20 sm:p-0 lg:p-24 '>
+                <div className=' sm:ml-20 md:ml-0 mt-20 sm:p-0 lg:p-24 '>
                 <Slider {...sliderSettings} >
                     
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
@@ -81,7 +81,7 @@ export default function Partners() {
                 <img  src="/images/partner3.png" className="  partnerbg sm:ml-0 lg:ml-28 "   alt="welcome" />
                 </a>
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner4.png" className="  partnerbg sm:ml-0  lg:ml-28 " style={{maxWidth:310}}  alt="welcome" />
+                <img  src="/images/partner4.png" className="  partnerbg sm:ml-0  lg:ml-28 "   alt="welcome" />
                 </a>
                 
 

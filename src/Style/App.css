@@ -14,6 +14,7 @@
 .nav {
   background-color:rgba(0,0,20,0.2);
   backdrop-filter:blur(40px);
+  position: fixed;
 }
 
 
@@ -41,7 +42,7 @@
 }
 
 .try{
-  margin-left: calc((100% - 48px)/4);
+  margin-left:150px;
 }
 
 .projectsct{
@@ -50,6 +51,7 @@
   background-size:  contain;
   padding: 34px;
   width:250px;
+  max-width: 250px;
   height:250px;
 }
 
@@ -58,7 +60,7 @@
   background-image: url("/public/images/partners.png");
   background-repeat: no-repeat;
   background-size:  contain;
-  padding: 40px;
+  padding: 35px;
   padding-bottom: 12%;
   width:310px;
   height:180px;

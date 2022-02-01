@@ -2,6 +2,8 @@
 export default function Contact() {
     return (
             <div className="grid grid-cols-1 mt-20">
+                
+                <section id="contact">
                 <div className="text-5xl text-white ">
                 Contact
                 <div className="text-xl mt-4">
@@ -42,6 +44,7 @@ export default function Contact() {
 
                 
                 </div>
+                </section>
 
             </div>
     ); 

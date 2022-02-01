@@ -3,7 +3,7 @@ export default function Welcome() {
     return (
         <div>
             <div className="grid sm:grid-cols-1 lg:grid-cols-2 ">
-                <div className="md:hidden sm:block try mb-10">
+                <div className="md:hidden sm:block try sm:mt-36  sm:mb-12">
                     <img src="images/Group 243.svg" />
                 </div>
                 <div className="grid grid-cols-1 text-white lg:text-6xl sm:text-3xl mb-8 text-left place-content-center  gap-4">

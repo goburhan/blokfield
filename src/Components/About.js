@@ -6,8 +6,8 @@ export default function About() {
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-10 text-2xl text-white text-left place-items-center ">
         <div>
           <img
-            src="images/blokfieldlogo.png"
-            className="col-span-2 place-items-start"
+            src="images/bflogo.svg"
+            className="col-span-2 mb-8 place-items-start"
           />
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
           aliquam lacus tristique, porta urna et, venenatis odio. Nam
@@ -24,7 +24,7 @@ export default function About() {
         </div>
 
         <div >
-          <img src="images/about.png"  className=" sm:hidden lg:block"/>
+          <img src="images/bfmain.png"  className=" sm:hidden lg:block"/>
           
         </div>
       </div>

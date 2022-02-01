@@ -15,7 +15,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="nav h-24 blur lg">
+    <Disclosure as="nav" className="nav h-24 w-full blur lg">
       {({ open }) => (
         <>
           <div className="  mx-auto  sm:px-0 lg:px-8 md:-py-10 ">
@@ -54,6 +54,8 @@ export default function Example() {
                 <button
                   type="button"
                   className="cbtn px-8 text-white "
+                  href="#contact"
+                  
                 >
                   <div>Contact</div>
                 </button>

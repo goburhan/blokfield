@@ -1,8 +1,8 @@
 export default function WWdo() {
   return (
-    <div className="grid grid-cols-1 mt-20  ">
+    <div className="grid grid-cols-1 mt-12 ">
       <section id="whatwedo">
-      <div className="text-5xl text-white mb-20"> What We Do ? </div>
+      <div className="text-5xl text-white mb-24"> What We Do ? </div>
       <div className="grid grid-cols-1 text-white">
         <div className=" gap-4">
 
