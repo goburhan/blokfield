@@ -6,7 +6,7 @@ export default function Welcome() {
                 <div className="md:hidden sm:block try sm:mt-36  sm:mb-12">
                     <img src="images/Group 243.svg" />
                 </div>
-                <div className="grid grid-cols-1 text-white lg:text-6xl sm:text-3xl mb-8 text-left place-content-center  gap-4">
+                <div className="grid grid-cols-1 text-white lg:text-6xl  md:mt-36 sm:text-3xl mb-8 text-left place-content-center  gap-4">
                 Welcome to our company. Are you ready for new world? 
                     <div className="text-white text-xl  text-left " >
                         
@@ -14,7 +14,7 @@ export default function Welcome() {
                 </div>
                 </div>
                 
-                <img src="/images/welcome.png" alt="welcome" className=" sm:hidden md:block"/>
+                <img src="/images/welcome.png" alt="welcome" className=" sm:hidden lg:block"/>
             </div>
           
             <button

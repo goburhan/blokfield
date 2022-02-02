@@ -6,7 +6,7 @@ module.exports = {
       'sm': '200px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '680px',
+      'md': '610px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1290px',

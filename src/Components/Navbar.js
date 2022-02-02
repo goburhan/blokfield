@@ -29,7 +29,7 @@ export default function Example() {
                   />
                 </div>
                 <div className=" sm:ml-0 ">
-                  <div className="flex sm:space-x-2 md:space-x-12  absolute mt-4 lg:ml-80 ">
+                  <div className="flex sm:space-x-2 md:space-x-12  absolute mt-4  navloc ">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
