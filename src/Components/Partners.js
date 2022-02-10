@@ -15,6 +15,7 @@ export default function Partners() {
         arrows: false,
         responsive: [
     
+  
             {
             breakpoint: 1140,
             settings: {
@@ -68,7 +69,7 @@ export default function Partners() {
                 Partners
                 
                 </div>
-                <div className=' sm:ml-20 md:ml-0 mt-20 sm:p-0 lg:p-24 '>
+                <div className=' sm:ml-20 md:ml-20 md:mr-36 mt-20 sm:p-0 lg:p-24 '>
                 <Slider {...sliderSettings} >
                     
                 <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>

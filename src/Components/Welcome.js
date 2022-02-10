@@ -7,10 +7,11 @@ export default function Welcome() {
                     <img src="images/Group 243.svg" />
                 </div>
                 <div className="grid grid-cols-1 text-white lg:text-6xl  md:mt-36 sm:text-3xl mb-8 text-left place-content-center  gap-4">
-                Welcome to our company. Are you ready for new world? 
+                Blokfield 
+                The Next Generation Wealth Management
                     <div className="text-white text-xl  text-left " >
                         
-                    Several components of metaverse technologies have already been developed modern internet-enabled video games.
+                   Our clients always come first. We serve them trough a global network powered by partnership , integrity , and a shared purpose of advancing sustainable financial growth and opportunity. 
                 </div>
                 </div>
                 

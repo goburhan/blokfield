@@ -11,9 +11,11 @@ export default function SocialMedia() {
                 <div className="lg:block sm:hidden"></div>
                 <div className="lg:block sm:hidden"></div>
 
-                <img className="" src="/images/instagram.png" alt="welcome" style={{maxWidth:70 }} />
+                <img className=""  src="/images/instagram.png" alt="welcome" style={{maxWidth:70 }} />
                 <img className="" src="/images/facebook.png" alt="welcome" style={{maxWidth:70}}/>
-                <img className="" src="/images/twitter.png" alt="welcome" style={{maxWidth:70}}/>
+                <a href="https://twitter.com/robiniaswap">
+                <img className=""  src="/images/twitter.png" alt="welcome" style={{maxWidth:70}}/>
+                </a>
                 <img className="" src="/images/youtube.png" alt="welcome" style={{maxWidth:70}}/>
                 <img className="" src="/images/linkedin.png" alt="welcome" style={{maxWidth:70}}/>
                

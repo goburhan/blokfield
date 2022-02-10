@@ -9,18 +9,9 @@ export default function About() {
             src="images/bflogo.svg"
             className="col-span-2 mb-8 place-items-start"
           />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-          aliquam lacus tristique, porta urna et, venenatis odio. Nam
-          scelerisque finibus urna sed elementum. Donec scelerisque luctus diam,
-          quis condimentum elit maximus vel. Maecenas aliquam odio aliquet,
-          consequat magna tempor, pulvinar nunc. Vestibulum elementum, leo in
-          posuere laoreet, elit lacus vehicula metus, eget dignissim lacus
-          tellus vitae arcu. Duis fermentum, ipsum non aliquam venenatis, dui
-          risus mattis erat, quis eleifend diam purus nec mi. Vestibulum
-          imperdiet lobortis placerat. Donec congue dolor non semper
-          condimentum. Maecenas luctus libero et arcu fringilla fringilla.
-          Curabitur nibh sapien, pharetra vel leo eu, vehicula cursus massa.
-          Praesent in tincidunt purus.
+          Blokfield, a company specializing in blockchain technology, is taking the lead in continuous innovation in the fields of DeFi, Game and Reits after a long business preparation period.
+          We provide customers with a more efficient crypto asset management service with unprecedented attempts and technologies. 
+          We are growing into a company that pursues safe and continuous service trough more  communication and gradual service improvement than any other company.
         </div>
 
         <div >

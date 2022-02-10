@@ -24,9 +24,7 @@ function App() {
         <div className="mt-24">
         <Partners />
         </div>
-        <div className="mt-56">
-          <Members/>
-        </div>
+        
         <div>
           <About/>
         </div>

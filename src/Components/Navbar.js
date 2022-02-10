@@ -4,7 +4,6 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 const navigation = [
   { name: "Projects", href: "#projects", current: true },
   { name: "Partners", href: "#partners", current: false },
-  { name: "Co-member", href: "#members", current: false },
   { name: "About Us", href: "#about", current: false },
   { name: "What We Do", href: "#whatwedo", current: false },
 ];

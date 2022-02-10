@@ -6,7 +6,7 @@ export default function Projects() {
                 <div className="text-5xl text-white mt-24 ">
                 Projects
                 <div className="text-xl mt-4">
-                Several components of metaverse technologies have already been developed modern internet-enabled video games.
+                Transforming insights into opportunities that are perfected and personalized to your investing needs across blockchain and Reits markets
                 </div>
                 </div>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3    place-items-center p-36 gap-6">

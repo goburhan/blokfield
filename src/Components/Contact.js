@@ -7,7 +7,7 @@ export default function Contact() {
                 <div className="text-5xl text-white ">
                 Contact
                 <div className="text-xl mt-4">
-                Several components of metaverse technologies have already been developed modern internet-enabled video games.
+                We are always on the lookout for questions , buisness partnerships and offers regarding Blokfield projects.
                 </div>
                 </div>
                 <div className="grid grid-cols-1 text-white text-xl gap-8 items-center place-items-center p-24">
