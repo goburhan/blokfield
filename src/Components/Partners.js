@@ -17,7 +17,7 @@ export default function Partners() {
     
   
             {
-            breakpoint: 1140,
+            breakpoint: 1561,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
