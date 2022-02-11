@@ -17,7 +17,7 @@ export default function Projects() {
                 <img className=" projectsct" src="/images/project5.png"  alt="welcome" />
                 <img className="lg:mr-96 projectsct" src="/images/project6.png" alt="welcome"  /> 
                 <img className="lg:ml-96 projectsct projectsct" src="/images/project7.svg" alt="welcome"  />
-                <img className=" projectsct" src="/images/logo.svg" alt="welcome"  />
+                <img className=" projectsct" src="/images/Logo.svg" alt="welcome"  />
                 </div>
                 </section>
             </div>
