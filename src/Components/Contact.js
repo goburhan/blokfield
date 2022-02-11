@@ -11,7 +11,7 @@ export default function Contact() {
                 </div>
                 </div>
                 <div className="grid grid-cols-1 text-white text-xl gap-8 items-center place-items-center p-24">
-
+{/* 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3  contact sm:gap-0 lg:gap-40">
                     
                     <div className="col-span-1  ">
@@ -20,7 +20,7 @@ export default function Contact() {
                     <div className="sm:col-span-1 lg:col-span-2  lg:col-start-2 mt-2 sm:-ml-32 lg:mr-8">
                     +90 532 218 0673
                     </div>
-                </div>
+                </div> */}
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3  contact sm:gap-0 lg:gap-40 ">
                     
@@ -28,10 +28,10 @@ export default function Contact() {
                         <img src="images/mail.png" style={{maxWidth:47}}/>
                     </div>
                     <div className="sm:col-span-1 lg:col-span-2  lg:col-start-2 mt-2 sm:-ml-32 lg:mr-8">
-                    info@blokfield.com
+                    contact@blokfield.io
                     </div>
                 </div>
-
+{/* 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3  contact  ">
                     
                     <div className="col-span-1  ">
@@ -40,7 +40,7 @@ export default function Contact() {
                     <div className="sm:col-span-1 lg:col-span-2  lg:col-start-2 mt-2 sm:-ml-32 lg:-ml-20">
                     Margen Sk. No.1 Da.10 Beyoglu/Istanbul
                     </div>
-                </div>
+                </div> */}
 
                 
                 </div>
