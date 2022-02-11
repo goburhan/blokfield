@@ -18,13 +18,18 @@ export default function Welcome() {
                 <img src="/images/welcome.png" alt="welcome" className=" sm:hidden lg:block xl:block "/>
             </div>
           
+          <a type="button"
+          href="#about">
+
             <button
                   type="button"
-                  className=" btn  text-white px-4 "
+                  className=" btn  text-white px-4 " 
                   
                 >
                   <div>Read About Us</div>
-                </button>
+                </button >
+          </a>
+
         </div>
     ); 
 }
