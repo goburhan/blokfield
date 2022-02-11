@@ -31,7 +31,7 @@ export default function SocialMedia() {
           />
         </a>
 
-        <a className="" href="https://blokfield.gitbook.io/robinia/">
+        <a className="" href="https://medium.com/@Blokfield.inc">
           <img
             className=""
             src="/images/s4.svg"
