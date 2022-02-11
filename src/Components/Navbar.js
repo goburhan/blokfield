@@ -21,11 +21,14 @@ export default function Example() {
             <div className="relative flex justify-between  h-24">
               <div className="flex-1 flex items-center justify-center  sm:items-stretch sm:justify-start  ">
                 <div className="flex-shrink-0  flex items-center">
-                  <img
+                <a href="/#">
+                <img
                     className=" sm:hidden md:block h-20 w-auto  "
                     src="images/Group 243.svg"
                     alt="Workflow"
                   />
+                  </a>  
+                
                 </div>
                 <div className=" sm:ml-0 ">
                   <div className="flex sm:space-x-2 md:space-x-12  absolute mt-4  navloc ">
