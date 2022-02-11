@@ -1,7 +1,7 @@
 
 export default function Contact() {
     return (
-            <div className="grid grid-cols-1 mt-20 lg:mt-60">
+            <div className="grid grid-cols-1 mt-20 lg:mt-40">
                 
                 <section id="contact">
                 <div className="text-5xl text-white ">

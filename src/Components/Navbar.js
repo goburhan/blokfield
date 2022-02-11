@@ -53,7 +53,9 @@ export default function Example() {
 
               {/* Contact Button */}
               <div className="absolute lg:block sm:hidden right-0 flex items-center py-6 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <a href="#contact">
+                <a   href="#contact">
+                 
+
                 <button
                   type="button"
                   className="cbtn px-8 text-white "
