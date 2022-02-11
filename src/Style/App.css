@@ -51,9 +51,18 @@
   background-image: url("/public/images/projectbg.png");
   background-repeat: no-repeat;
   background-size:  contain;
-  padding: 34px;
+  padding: 30px;
   width:250px;
   max-width: 250px;
+}
+.projectsct2{
+  background-image: url("/public/images/projectbg.png");
+  background-repeat: no-repeat;
+  background-size:  contain;
+  padding: 30px;
+  width:250px;
+  max-width: 250px;
+  min-height: 250px;
 }
 
 .navloc {
