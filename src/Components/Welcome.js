@@ -1,35 +1,40 @@
+import { Container } from "./StyledComponents/Container.styled";
+import {StyledRead} from "./StyledComponents/StyledButton";
+import { Text, Title } from "./StyledComponents/Text.styled";
+import { Flex } from "./StyledComponents/Flex.styled";
+import { StyledWelcome } from "./StyledComponents/Welcome.styled";
+
 
 export default function Welcome() {
-    return (
-        <div>
-            <div className="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
-                <div className="md:hidden sm:block try sm:mt-36  sm:mb-12">
-                    <img src="images/Group 243.svg" />
-                </div>
-                <div className="grid grid-cols-1 text-white xl:text-6xl  md:mt-36  sm:text-3xl mb-8 text-left place-content-center  gap-4">
-                Blokfield 
-                The Next Generation Wealth Management
-                    <div className="text-white text-xl  text-left " >
-                        
-                   Our clients always come first. We serve them trough a global network powered by partnership , integrity , and a shared purpose of advancing sustainable financial growth and opportunity. 
-                </div>
-                </div>
-                
-                <img src="/images/welcome.png" alt="welcome" className=" sm:hidden lg:block xl:block "/>
-            </div>
-          
-          <a type="button"
-          href="#about">
 
-            <button
-                  type="button"
-                  className=" btn  text-white px-4 " 
-                  
-                >
-                  <div>Read About Us</div>
-                </button >
-          </a>
 
-        </div>
-    ); 
+  return (
+    <StyledWelcome>
+      <div className="md:hidden sm:block try sm:mt-20  sm:mb-12">
+        <img src="images/mainlogo.svg" />
+      </div>
+          <Flex >
+          <Text color="white" align="left"  >
+           <Title >Blokfield The Next Generation Wealth Management </Title> 
+            <br />
+            <br />
+            Our clients always come first. We serve them trough a global network
+            powered by partnership , integrity , and a shared purpose of
+            advancing sustainable financial growth and opportunity.
+            
+          </Text>
+          <img
+            src="/images/welcome.png"
+            alt="welcome"
+            className=" sm:hidden md:block "
+          />
+          </Flex>
+         
+
+        <StyledRead role="button" marginleft="47%" >
+        Read About Us
+      </StyledRead>
+      
+    </StyledWelcome>
+  );
 }

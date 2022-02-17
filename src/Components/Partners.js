@@ -1,94 +1,92 @@
-import Slider from 'react-slick'
-import React from 'react'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import '../Style/slider-dots.css'
+import Slider from "react-slick";
+import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../Style/slider-dots.css";
+import { Title } from "./StyledComponents/Text.styled";
+import {
+  PartnerCard,
+  PartnerSection,
+} from "./StyledComponents/Partners.styled";
+import { Flex } from "./StyledComponents/Flex.styled";
 
 export default function Partners() {
-    const sliderSettings = {
-        dots: true,
-        infinite: false,
-        speed: 250,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        arrows: false,
-        responsive: [
-    
-  
-            {
-            breakpoint: 1561,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              infinite: true,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 960,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              infinite: true,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 800,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 2,
-              infinite: true,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 1,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      }
-    return (
+  const sliderSettings = {
+    dots: true,
+    infinite: false,
+    speed: 250,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1561,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
 
-       
-            <div className="grid grid-cols-1 mt-12">
-              <section id='partners'>
-                <div className="text-5xl mt-28 text-white ">
-                Partners
-                
-                </div>
-                <div className=' sm:ml-20 md:ml-20 md:mr-36 mt-20 sm:p-0 lg:p-24 '>
-                <Slider {...sliderSettings} >
-                    
-                <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner1.png" className="partnerbg sm:ml-0 lg:ml-28 "   alt="welcome" />
-                </a>
-                <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner2.png" className=" partnerbg sm:ml-0 lg:ml-28 "   alt="welcome" />
-                </a>
-                <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner3.png" className="  partnerbg sm:ml-0 lg:ml-28 "   alt="welcome" />
-                </a>
-                <a href='https://blokfield.gitbook.io/wisteria-swap/create-your-own-defi'>
-                <img  src="/images/partner4.png" className="  partnerbg sm:ml-0  lg:ml-28 "   alt="welcome" />
-                </a>
-                
-
-                </Slider>
-                </div>
-                </section>
-            </div>
-    ); 
+      {
+        breakpoint: 960,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+  const partners = [
+    { name: "partner1" },
+    { name: "partner2" },
+    { name: "partner3" },
+    { name: "partner4" },
+  ];
+  return (
+    <section id="partners">
+      <Flex margin="10% 0 0 0" justify="center">
+        <Title>Partners</Title>
+      </Flex>
+      <br />
+      <br />
+      <PartnerSection>
+        <Slider {...sliderSettings}>
+          {partners.map((item, index) => (
+            <PartnerCard>
+              <img src={`/images/${item.name}.png`} />
+            </PartnerCard>
+          ))}
+        </Slider>
+      </PartnerSection>
+    </section>
+  );
 }

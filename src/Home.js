@@ -1,44 +1,40 @@
-import logo from "./logo.svg";
 import "./Style/App.css";
 import Navbar from "./Components/Navbar";
 import Welcome from "./Components/Welcome";
 import Projects from "./Components/Projects";
-import About  from "./Components/About";
+import About from "./Components/About";
 import Partners from "./Components/Partners";
 import Members from "./Components/Co-member";
 import WWdo from "./Components/WeDo";
 import Contact from "./Components/Contact";
+import { ThemeProvider } from "styled-components";
 import SocialMedia from "./Components/SocialMedia";
+import GlobalStyles from "./Style/Global";
+
+const theme = {
+
+  mobile: "768px",
+  laptops: "992px",
+  tablet: "1024px",
+  bigscreen: "1400px"
+};
 
 function App() {
   return (
-    <div className="App ">
-      <Navbar />
-      <div className="grid grid-cols-1 sm:ml-4 sm:mr-4 ml-24 mr-24 gap-20 sm:p-0 lg:p-24">
-        <div>
-          <Welcome />
-        </div>
-        <div className="">
-          <Projects />
-        </div>
-        <div className="mt-24">
+    <ThemeProvider theme={theme}>
+      <>
+       <Navbar />
+        <GlobalStyles />
+        <Welcome />
+        <Projects />
         <Partners />
-        </div>
-        
-        <div>
-          <About/>
-        </div>
-        <div className="mt-24">
-          <WWdo/>
-        </div>
-        <div>
-        <Contact/>
-        </div>
-        <div >
-          <SocialMedia/>
-        </div>
-      </div>
-    </div>
+
+        <About />
+        <WWdo />
+        <Contact />
+        <SocialMedia />
+      </>
+    </ThemeProvider>
   );
 }
 

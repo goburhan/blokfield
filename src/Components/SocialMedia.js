@@ -1,45 +1,42 @@
-export default function SocialMedia() {
-  return (
-    <div className="grid grid-cols-1 ">
-      <div className="text-5xl text-white ">Social Media</div>
-      <div className="grid sm:gap-2 sm:mr-6 sm:grid-cols-4 lg:grid-cols-10 items-center place-items-center mt-12 mb-24 ">
-        <div className="lg:block sm:hidden"></div>
-        <div className="lg:block sm:hidden"></div>
-        <div className="lg:block sm:hidden"></div>
-        <a href="https://twitter.com/robiniaswap">
-          <img
-            className=""
-            src="/images/s1.svg"
-            alt="welcome"
-            style={{ maxWidth: 70 }}
-          />
-        </a>
-        <a href="https://t.me/officialrobinia">
-          <img
-            className=""
-            src="/images/s2.svg"
-            alt="welcome"
-            style={{ maxWidth: 70 }}
-          />
-        </a>
-        <a href="https://discord.gg/yEFKUsEsaj">
-          <img
-            className=""
-            src="/images/s3.svg"
-            alt="welcome"
-            style={{ maxWidth: 70 }}
-          />
-        </a>
+import { Container } from "./StyledComponents/Container.styled";
+import { Title } from './StyledComponents/Text.styled'
+import { Flex } from "./StyledComponents/Flex.styled";
 
-        <a className="" href="https://medium.com/@Blokfield.inc">
+export default function SocialMedia() {
+
+  const socials =  [
+    {
+      name:"s1"
+    },
+    {
+      name:"s2"
+    },
+    {
+      name:"s3"
+    },
+    {
+      name:"s4"
+    },
+  ]
+
+  return (
+    <>
+      <Flex margin="8% 0 4% 0" justify="center">
+        <Title>Social Media</Title>
+      </Flex>
+      <Flex justify="center" margin="2% 0 4% 0">
+        {socials.map((item) => (
+          <a href="https://twitter.com/robiniaswap">
           <img
-            className=""
-            src="/images/s4.svg"
+          className="ml-8"
+          src={`/images/${item.name}.svg`} 
             alt="welcome"
             style={{ maxWidth: 70 }}
           />
         </a>
-      </div>
-    </div>
+        ))}
+      </Flex>
+        
+      </>
   );
 }
