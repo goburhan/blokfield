@@ -5,10 +5,10 @@ import { StyledButton } from "./StyledComponents/StyledButton";
 import { Flex } from "./StyledComponents/Flex.styled";
 
 const navigation = [
-  { name: "Projects", href: "#projects", current: true },
-  { name: "Partners", href: "#partners", current: false },
-  { name: "About Us", href: "#about", current: false },
-  { name: "What We Do", href: "#whatwedo", current: false },
+  { name: "Projects", href: "#projects" },
+  { name: "Partners", href: "#partners" },
+  { name: "About Us", href: "#about" },
+  { name: "What We Do", href: "#whatwedo" },
 ];
 
 export default function Navbar() {

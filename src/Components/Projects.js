@@ -21,11 +21,16 @@ const projects = [
 export default function Projects() {
   return (
     <>
+
       <StyledProjects>
+    <section id="projects"/>
+
         <Flex margin="10% 0 0 0" justify="center">
+
           <Title>Projects</Title>
         </Flex>
         <br />
+
         <br />
         <Text color="white" align="center">
           Transforming insights into opportunities that are perfected and

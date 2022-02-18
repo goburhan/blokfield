@@ -6,7 +6,7 @@ import { StyledAbout } from "./StyledComponents/About.styled";
 export default function About() {
   return (
     <StyledAbout>
-      <section id="about">
+      <section id="about"/>
         <Flex  justify="center">
           <Title>About Us</Title>
         </Flex>
@@ -32,7 +32,6 @@ export default function About() {
               className=" sm:hidden lg:block ml-48 mr-24 "
             />
           </Flex>
-      </section>
     </StyledAbout>
   );
 }

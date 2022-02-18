@@ -72,8 +72,10 @@ export default function Partners() {
     { name: "partner4" },
   ];
   return (
-    <section id="partners">
+    <>
+    <section id="partners" />
       <Flex margin="10% 0 0 0" justify="center">
+        
         <Title>Partners</Title>
       </Flex>
       <br />
@@ -87,6 +89,6 @@ export default function Partners() {
           ))}
         </Slider>
       </PartnerSection>
-    </section>
+    </>
   );
 }
