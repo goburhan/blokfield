@@ -15,7 +15,7 @@ export const Flex = styled.div`
     }
     @media (max-width: ${({ theme }) => theme.mobile}) {
         margin:0px 5px 0px 0px;      
-        padding:18px;
+        padding:12px;
     }
   }
  
