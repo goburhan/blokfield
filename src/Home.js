@@ -26,13 +26,23 @@ function App() {
        <Navbar />
         <GlobalStyles />
         <Welcome />
+        <div className="mt-20">
         <Projects />
+        </div>
+        <div className="mt-40">
         <Partners />
-
+        </div>
+        <div className="mt-40">
         <About />
+        </div>
+      
         <WWdo />
+        <div className="mt-40">
         <Contact />
+        </div>
+        <div className="mb-20 mt-40">
         <SocialMedia />
+        </div>
       </>
     </ThemeProvider>
   );
