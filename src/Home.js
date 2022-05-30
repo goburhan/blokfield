@@ -12,36 +12,35 @@ import SocialMedia from "./Components/SocialMedia";
 import GlobalStyles from "./Style/Global";
 
 const theme = {
-
   mobile: "768px",
   laptops: "992px",
   tablet: "1024px",
-  bigscreen: "1400px"
+  bigscreen: "1400px",
 };
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <>
-       <Navbar />
+        <Navbar />
         <GlobalStyles />
         <Welcome />
         <div className="mt-20">
-        <Projects />
+          <Projects />
         </div>
         <div className="mt-40">
-        <Partners />
+          <Partners />
         </div>
         <div className="mt-40">
-        <About />
+          <About />
         </div>
-      
+
         <WWdo />
         <div className="mt-40">
-        <Contact />
+          <Contact />
         </div>
         <div className="mb-20 mt-40">
-        <SocialMedia />
+          <SocialMedia />
         </div>
       </>
     </ThemeProvider>
